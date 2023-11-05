@@ -10,7 +10,7 @@ amqp.connect('amqp://guest:guest@127.0.0.1', function(error0, connection) {
             throw error1;
         }
         let queue = 'hello'
-        let msg = 'Hello wordl'
+        let msg = 'Hello world'
 
         channel.assertQueue(queue, {
             durable: false
